@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 2em 0;
+        }
+        .feature {
+            background: #fff;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .feature img, .feature video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .feature h3 {
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Music Player</h1>
+    </div>
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="feature1.jpg" alt="Feature 1 Image">
+                <h3>Feature 1: High-Quality Audio</h3>
+                <p>Enjoy crystal clear audio with our high-fidelity sound technology.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="Feature 2 Image">
+                <h3>Feature 2: Custom Playlists</h3>
+                <p>Create and manage your own playlists with ease.</p>
+            </div>
+            <div class="feature">
+                <video controls>
+                    <source src="feature3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Feature 3: Visualizer</h3>
+                <p>Enjoy a stunning visualizer that syncs with your music.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
